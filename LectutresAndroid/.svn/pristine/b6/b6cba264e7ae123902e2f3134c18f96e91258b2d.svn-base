@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="parallaxbacklayout-0.1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.anzewei/parallaxbacklayout/0.1/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.anzewei/parallaxbacklayout/0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.anzewei/parallaxbacklayout/0.1/b743cb8a31829398573783fe31747b3fd9c1a829/parallaxbacklayout-0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

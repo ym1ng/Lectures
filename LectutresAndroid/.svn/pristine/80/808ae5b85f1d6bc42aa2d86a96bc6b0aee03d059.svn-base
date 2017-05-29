@@ -1,0 +1,27 @@
+// Generated code from Butter Knife. Do not modify!
+package com.example.administrator.lecturesmanagerdemo.fragment;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class LectureFragment$$ViewInjector<T extends com.example.administrator.lecturesmanagerdemo.fragment.LectureFragment> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131624107, "field 'rvMovieList'");
+    target.rvMovieList = finder.castView(view, 2131624107, "field 'rvMovieList'");
+    view = finder.findRequiredView(source, 2131624104, "field 'mIosSpinner'");
+    target.mIosSpinner = finder.castView(view, 2131624104, "field 'mIosSpinner'");
+    view = finder.findRequiredView(source, 2131624105, "field 'mIosSpinner1'");
+    target.mIosSpinner1 = finder.castView(view, 2131624105, "field 'mIosSpinner1'");
+    view = finder.findRequiredView(source, 2131624106, "field 'mIosSpinner2'");
+    target.mIosSpinner2 = finder.castView(view, 2131624106, "field 'mIosSpinner2'");
+  }
+
+  @Override public void reset(T target) {
+    target.rvMovieList = null;
+    target.mIosSpinner = null;
+    target.mIosSpinner1 = null;
+    target.mIosSpinner2 = null;
+  }
+}

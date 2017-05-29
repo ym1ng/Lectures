@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_enter.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\anim\\anim_enter.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pl_slide_in_from_left.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.anzewei\\parallaxbacklayout\\0.1\\res\\anim\\pl_slide_in_from_left.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dd_menu_in.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.dongjunkun\\DropDownMenu\\1.0.3\\res\\anim\\dd_menu_in.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pl_slide_out_to_right.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.anzewei\\parallaxbacklayout\\0.1\\res\\anim\\pl_slide_out_to_right.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\anim\\rotate.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_exit.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\anim\\anim_exit.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pl_slide_from_right.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.anzewei\\parallaxbacklayout\\0.1\\res\\anim\\pl_slide_from_right.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\floating_action_button_show.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.jdsjlzx\\LRecyclerView\\1.2.9\\res\\anim\\floating_action_button_show.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dd_mask_in.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.dongjunkun\\DropDownMenu\\1.0.3\\res\\anim\\dd_mask_in.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dd_mask_out.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.dongjunkun\\DropDownMenu\\1.0.3\\res\\anim\\dd_mask_out.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pl_slide_out_to_left.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.anzewei\\parallaxbacklayout\\0.1\\res\\anim\\pl_slide_out_to_left.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dd_menu_out.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.dongjunkun\\DropDownMenu\\1.0.3\\res\\anim\\dd_menu_out.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\floating_action_button_hide.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.jdsjlzx\\LRecyclerView\\1.2.9\\res\\anim\\floating_action_button_hide.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    }
+]

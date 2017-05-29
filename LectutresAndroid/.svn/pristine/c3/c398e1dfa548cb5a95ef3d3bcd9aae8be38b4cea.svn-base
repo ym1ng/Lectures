@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LSettingView"><attr format="string" name="leftText"/><attr format="integer" name="leftIcon"/><attr format="integer" name="rightIcon"/><attr format="dimension" name="textSize"/><attr format="color" name="textColor"/><attr format="boolean" name="isShowUnderLine"/><attr format="enum" name="rightStyle">
+            <enum name="iconShow" value="0"/>
+            <enum name="iconHide" value="1"/>
+            <enum name="iconCheck" value="2"/>
+            <enum name="iconSwitch" value="3"/>
+        </attr></declare-styleable>
+    <string name="app_name">LSettingViewLibrary</string>
+</resources>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lsettingviewlibrary-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.leon/lsettingviewlibrary/1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.leon/lsettingviewlibrary/1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.leon/lsettingviewlibrary/1.0/81900182df4f93c6249bf45898198f4bc44971a6/lsettingviewlibrary-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zxy.recovery"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="24" />
+
+    <application android:supportsRtl="true" >
+        <activity
+            android:name="com.zxy.recovery.core.RecoveryActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:process=":recover"
+            android:screenOrientation="portrait"
+            android:theme="@style/RecoveryTheme.NoActionBar" >
+        </activity>
+
+        <service
+            android:name="com.zxy.recovery.core.RecoveryService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":recover" >
+        </service>
+    </application>
+
+</manifest>

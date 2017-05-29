@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="xframe-1.0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.youth.xframe/xframe/1.0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.youth.xframe/xframe/1.0.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.youth.xframe/xframe/1.0.2/fab610507f33f569547c490f49b6253830cc9e0b/xframe-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\gou.png",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\mipmap-xxhdpi\\gou.png"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\color_up.png",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\mipmap-xxhdpi\\color_up.png"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\down2.png",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\mipmap-xxhdpi\\down2.png"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\arrow_left.png",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\mipmap-xxhdpi\\arrow_left.png"
+    }
+]

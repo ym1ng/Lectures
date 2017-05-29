@@ -1,0 +1,41 @@
+// Generated code from Butter Knife. Do not modify!
+package com.example.administrator.lecturesmanagerdemo.ui.Lecture;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class LectureDetail$$ViewInjector<T extends com.example.administrator.lecturesmanagerdemo.ui.Lecture.LectureDetail> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131624147, "field 'tvTitle'");
+    target.tvTitle = finder.castView(view, 2131624147, "field 'tvTitle'");
+    view = finder.findRequiredView(source, 2131624159, "field 'Ivsearch'");
+    target.Ivsearch = finder.castView(view, 2131624159, "field 'Ivsearch'");
+    view = finder.findRequiredView(source, 2131624192, "field 'comment'");
+    target.comment = finder.castView(view, 2131624192, "field 'comment'");
+    view = finder.findRequiredView(source, 2131624193, "field 'collect'");
+    target.collect = finder.castView(view, 2131624193, "field 'collect'");
+    view = finder.findRequiredView(source, 2131624158, "field 'ivTitleBack' and method 'finishA'");
+    target.ivTitleBack = finder.castView(view, 2131624158, "field 'ivTitleBack'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.finishA(p0);
+        }
+      });
+    view = finder.findRequiredView(source, 2131624189, "field 'webview'");
+    target.webview = finder.castView(view, 2131624189, "field 'webview'");
+  }
+
+  @Override public void reset(T target) {
+    target.tvTitle = null;
+    target.Ivsearch = null;
+    target.comment = null;
+    target.collect = null;
+    target.ivTitleBack = null;
+    target.webview = null;
+  }
+}

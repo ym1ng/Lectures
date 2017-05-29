@@ -1,0 +1,27 @@
+// Generated code from Butter Knife. Do not modify!
+package com.example.administrator.lecturesmanagerdemo.ui.main;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class MainActivitydemo$$ViewInjector<T extends MainActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131624140, "field 'tvTitle'");
+    target.tvTitle = finder.castView(view, 2131624140, "field 'tvTitle'");
+    view = finder.findRequiredView(source, 2131624151, "field 'ivTitleBack'");
+    target.ivTitleBack = finder.castView(view, 2131624151, "field 'ivTitleBack'");
+    view = finder.findRequiredView(source, 2131624152, "field 'search'");
+    target.search = finder.castView(view, 2131624152, "field 'search'");
+    view = finder.findRequiredView(source, 2131624225, "field 'tabView'");
+    target.tabView = finder.castView(view, 2131624225, "field 'tabView'");
+  }
+
+  @Override public void reset(T target) {
+    target.tvTitle = null;
+    target.ivTitleBack = null;
+    target.search = null;
+    target.tabView = null;
+  }
+}

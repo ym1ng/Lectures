@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="XFrame_darker_gray">#aaaaaa</color>
+    <color name="XFrame_loading_dialog_message">#595959</color>
+    <color name="XFrame_text_gray">#8a8a8a</color>
+    <color name="XFrame_white">#ffffff</color>
+    <declare-styleable name="XLoadingView"><attr format="reference" name="loadingView"/><attr format="reference" name="errorView"/><attr format="reference" name="emptyView"/><attr format="reference" name="noNetworkView"/></declare-styleable>
+    <declare-styleable name="XRoundButton"><attr format="color" name="btnSolidColor"/><attr format="color" name="btnStrokeColor"/><attr format="dimension" name="btnStrokeWidth"/><attr format="dimension" name="btnStrokeDashWidth"/><attr format="dimension" name="btnStrokeDashGap"/><attr format="dimension" name="btnCornerRadius">
+            <enum name="stadium" value="-1"/>
+        </attr><attr format="float" name="btnPressedRatio"/></declare-styleable>
+    <dimen name="XFrame_adapter_icon_size">24dp</dimen>
+    <dimen name="XFrame_progressbar_size">24dp</dimen>
+    <dimen name="XFrame_radius">6dp</dimen>
+    <dimen name="XFrame_spacing">10dp</dimen>
+    <dimen name="XFrame_spacing_large">16dp</dimen>
+    <dimen name="XFrame_spacing_small">8dp</dimen>
+    <dimen name="XFrame_text_size">15sp</dimen>
+    <dimen name="XFrame_text_size_small">13sp</dimen>
+    <item name="xloading_retry" type="id"/>
+    <item name="xstatusbar_fake_status_bar_view" type="id"/>
+    <item name="xstatusbar_translucent_view" type="id"/>
+    <string name="app_name">XFrame</string>
+    <string name="xloading_dialog_message">正在加载中</string>
+    <string name="xloading_empty_text">暂无数据</string>
+    <string name="xloading_error_text">加载失败，请稍后再试</string>
+    <string name="xloading_no_network_text">无网络连接，请检查你的网络</string>
+    <string name="xloading_retry_text">点击重试</string>
+    <style name="loading_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <style name="xloading_padding_style">
+        <item name="android:paddingTop">@dimen/XFrame_spacing</item>
+        <item name="android:paddingBottom">@dimen/XFrame_spacing</item>
+        <item name="android:paddingLeft">@dimen/XFrame_spacing_large</item>
+        <item name="android:paddingRight">@dimen/XFrame_spacing_large</item>
+    </style>
+</resources>

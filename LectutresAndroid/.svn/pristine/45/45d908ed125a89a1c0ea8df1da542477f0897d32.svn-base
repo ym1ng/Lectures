@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_recovery.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.zxy.android\\recovery\\0.0.8\\res\\menu\\menu_recovery.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_recovery_sub.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.zxy.android\\recovery\\0.0.8\\res\\menu\\menu_recovery_sub.xml"
+    }
+]

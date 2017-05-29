@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:scrollbars="none"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/layout_head"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="@dimen/mgsize10"
+            android:layout_marginTop="@dimen/mgsize10"
+            android:background="@drawable/bg1"
+            android:gravity="center_vertical"
+            android:padding="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="头像"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/mgsize10"
+                android:textSize="14sp" />
+            <com.example.administrator.lecturesmanagerdemo.widget.RoundImageView
+                android:id="@+id/ic_head"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/placeholder" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/ic_h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:id="@+id/tv_u"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/ic_h"
+                android:text="姓名"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/mgsize10"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/gray3"
+                android:text=""
+                android:textSize="@dimen/textsize15" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:padding="12dp">
+            <ImageView
+                android:id="@+id/ic_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                />
+            <TextView
+                android:id="@+id/tv_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="性别"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/mgsize10"
+                android:layout_toRightOf="@+id/ic_s"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/tv_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/gray3"
+                android:textSize="@dimen/textsize15" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:padding="12dp">
+
+            <ImageView
+                android:id="@+id/ic_ma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true" />
+            <!--   android:src="@mipmap/ic_marriage"-->
+
+            <TextView
+                android:id="@+id/tv_ma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="邮箱"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/mgsize10"
+                android:layout_toRightOf="@+id/ic_ma"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/gray3"
+                android:textSize="@dimen/textsize15" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/layout_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:padding="12dp">
+
+            <ImageView
+                android:id="@+id/ic_i"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:id="@+id/tv_i"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="手机号码"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/mgsize10"
+                android:layout_toRightOf="@+id/ic_i"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/gray3"
+                android:textSize="@dimen/textsize15" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+        android:id="@+id/layout_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:padding="12dp">
+
+            <ImageView
+                android:id="@+id/ic_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="地区"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/mgsize10"
+                android:layout_toRightOf="@+id/ic_t"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/gray3"
+                android:textSize="@dimen/textsize15" />
+
+        </RelativeLayout>
+
+        <com.example.administrator.lecturesmanagerdemo.widget.swipemenulistview.SwipeMenuListView
+            android:id="@+id/code_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:scrollbars="none"/>
+    </LinearLayout>
+
+</ScrollView>

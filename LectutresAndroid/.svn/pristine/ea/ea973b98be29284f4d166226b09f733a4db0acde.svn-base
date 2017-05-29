@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:leon="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginBottom="16dp"
+        android:background="#fff"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.example.administrator.lecturesmanagerdemo.widget.RoundImageView
+            android:id="@+id/headimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/placeholder"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text=" "
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <com.leon.lib.settingview.LSettingItem
+       android:id="@+id/lecture_enroll"
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        leon:leftIcon="@drawable/credit_card"
+        leon:leftText="我的讲座"
+    />
+    <com.leon.lib.settingview.LSettingItem
+        android:id="@+id/mycollection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        leon:leftIcon="@drawable/download"
+        leon:leftText="我的收藏"/>
+
+    <com.leon.lib.settingview.LSettingItem
+        android:id="@+id/item_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        leon:leftIcon="@drawable/history"
+        leon:leftText="扫一扫"/>
+    <com.leon.lib.settingview.LSettingItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/MyCheckBox"
+        leon:isShowUnderLine="false"
+        leon:leftIcon="@drawable/ic_action_communication_location_on"
+        leon:leftText="我的位置"
+        leon:rightStyle="iconSwitch"/>
+    <com.leon.lib.settingview.LSettingItem
+        android:id="@+id/item_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/MyCheckBox"
+        leon:leftIcon="@drawable/ic_action_action_add_shopping_cart"
+        leon:leftText="我的购物车"
+        leon:rightStyle="iconCheck"/>
+
+</LinearLayout>
+</ScrollView>
+

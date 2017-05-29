@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="check_bg">#f2f2f2</color>
+    <color name="drop_down_selected">#7B1FA2</color>
+    <color name="drop_down_unselected">#111111</color>
+    <color name="gray">#cccccc</color>
+    <color name="mask_color">#88888888</color>
+    <color name="un_press_color">#9C27B0</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="DropDownMenu"><attr format="color" name="ddunderlineColor"/><attr format="color" name="dddividerColor"/><attr format="color" name="ddtextSelectedColor"/><attr format="color" name="ddtextUnselectedColor"/><attr format="color" name="ddmenuBackgroundColor"/><attr format="color" name="ddmaskColor"/><attr format="dimension" name="ddmenuTextSize"/><attr format="reference" name="ddmenuSelectedIcon"/><attr format="reference" name="ddmenuUnselectedIcon"/></declare-styleable>
+    <string name="app_name">Library</string>
+</resources>

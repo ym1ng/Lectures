@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_title_btn_back.png",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\mipmap-hdpi\\ic_title_btn_back.png"
+    }
+]

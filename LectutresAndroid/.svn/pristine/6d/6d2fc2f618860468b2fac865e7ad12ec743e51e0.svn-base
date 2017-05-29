@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="LRecyclerView-1.2.9">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.jdsjlzx/LRecyclerView/1.2.9/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.jdsjlzx/LRecyclerView/1.2.9/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.jdsjlzx/LRecyclerView/1.2.9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jdsjlzx/LRecyclerView/1.2.9/8b2d39d4938ab5345a156fa247ee2d3775734995/LRecyclerView-1.2.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

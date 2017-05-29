@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\gson-2.7_2e85dbf641c4a16c73925139bd4ff50ebb0450dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\butterknife-6.1.0_69d2d3c27627661806f0bd051a18a12cc184adc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.github.anzewei\parallaxbacklayout\0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cb5b3898a11a57bf49f17d90c00fea73077ab16">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.github.anzewei-parallaxbacklayout-0.1_4c96b2f34a5004b306c7c1bb7701bc45c37f0097.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_e8b24c22bbbf846e8f3d597a2746845b532ea929.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.ycl.tabview.library\tabviewlibrary\1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bb6dec58ea599ea94a1aa9f43b96608d280d5e0">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.ycl.tabview.library-tabviewlibrary-1.0_3bb52430c06be1de73e7ae4f54708165b3845e11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.huxq17.xrefreshview\xrefreshview\3.6.6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="822f3676cf26e5125cf522fecd77ba8a54df63ca">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.huxq17.xrefreshview-xrefreshview-3.6.6_d9d56bd476687b48bf8b14ea50f823b17c1ac1b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.1_207ed461469292ad094bdc0da893fa14e8a1fbc2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\io.reactivex-rxandroid-1.1.0_f2c09c5495ae99620df9c3bb50babf97a54dd58c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\glide-3.7.0_1f3ddf859a86296da03fddcf50d19f29d652df81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.github.codbking\CalendarExaple\v1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="acfec37f78816f0fc33fd7843efe6aa15d81fd70">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.github.codbking-CalendarExaple-v1.0.0_63229a3a71855dc0ea7de1e066faa34b8a1fd7d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\eventbus-3.0.0_338198e230e883acd6c9c82ca46ba5fc3096755c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.1\19047bdb6a4fc00a44124f64ca98e88fc204e7e3\okhttp-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\okhttp-3.3.1_2ea39afb3973a142a4b831a99bc4e2df1de6a0a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_2428dbd5eabf65ae69bc01abd6e4b72d08e545aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\okio-1.8.0_06f7f952010e37a20e0067d81e65675288b9e24f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_02cdaa5f093e78b272a8b951b62057cb62740b8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_eb63762db9549bd78b9553b029da63f62b6926a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_fc6d109c83c05cddded4b5ea732ed5dd7c938086.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_0fc7f10e8eb7e600077e3a8d939ad9e173216c9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_5fdddb7674b7024dbc02026ac48323faf4d5b5cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.youth.banner\banner\1.4.9\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f49fbc1bda3fa9073a82dd87de3e1ceea24268d">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.youth.banner-banner-1.4.9_0e02d8dde76665ddc4bd19c7bc50581fbe5448ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_06c77354c36faa9154137772f4ae2c152d9aecd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.5\ece7b5d0870e66d8226dab6dcf47a2b12afff061\rxjava-1.1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\rxjava-1.1.5_74dd2eeb7003a467412f92d8accbdaab9a47a4fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.github.jdsjlzx\LRecyclerView\1.2.9\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ec2652687e30447b7044c78c5270031b9d343d1">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.github.jdsjlzx-LRecyclerView-1.2.9_d4c0a4f49bbae1bd77ca5713f8a5eafe94265f45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_cfa7e4f6acdbb5a37cc4fde833ccf160c11355f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.github.dongjunkun\DropDownMenu\1.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f95dcba6a3b912fbcea4f0c1b56f68fe91a97229">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.github.dongjunkun-DropDownMenu-1.0.3_3278eda5206d3b4c867cb938022d2c532d287265.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_1e3aaf286d02a1aa5d68d907d0dd29cef5aa026c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.3.1_014003b5845b7d7478f8de5abe4490f7a18310cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_e8b999070a4c6d437b0a4a0199fddd2ef9a28035.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_8eb4a086ce2af58f78a7ba8c4e212eab3bd9eb3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.leon\lsettingviewlibrary\1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f1eb2694e24de8df16290a094059fa4893efe6c">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.leon-lsettingviewlibrary-1.0_48a0953039f3ca4260ea5a593225d3021486be19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.zhy\base-rvadapter\3.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c84446b3e55d81d6e2cb63ccccfe0868d12f9baa">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.zhy-base-rvadapter-3.0.3_73fc3621fb53ef8957a1fece9d725404203e868d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_7a7074a3fde41c3fa4afa3168b884538131f3189.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.zxy.android\recovery\0.0.8\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfa1fc4fb5b2b63394be3a063e07a31cf5491e0d">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.zxy.android-recovery-0.0.8_65bc7c227efbd2bd9fd3dc9eac209eff3fbfb9e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.1_c62e83c69fed533c766987308b12193ccefbf3c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.jcodecraeer\xrecyclerview\1.3.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cff829b5c4dcc1815e9f361dc7136ffd6cd6a797">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.jcodecraeer-xrecyclerview-1.3.2_069748ec66d837c1577ed20fb9e6328240efb551.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.1.0\693eddc23e87ab13f9cf5001707ce8e7e1d1ff01\adapter-rxjava-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\adapter-rxjava-2.1.0_a922f2c9139fd2cbbf2500b5aa528f1e500fa2f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\banner-master\LecturesManagerDemo\app\build\intermediates\exploded-aar\com.youth.xframe\xframe\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cbfbac54934e873b9eb6c7f807d3d50917275b92">
+        <dex dex="D:\banner-master\LecturesManagerDemo\app\build\intermediates\pre-dexed\debug\com.youth.xframe-xframe-1.0.2_9488d2bf18536a8b83b9357df11504a68bc37a10.jar" />
+    </item>
+
+</items>

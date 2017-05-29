@@ -1,0 +1,426 @@
+[
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pop.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\item_pop.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lecture_item.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\lecture_item.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_recyclerview_list_footer.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.jdsjlzx\\LRecyclerView\\1.2.9\\res\\layout\\layout_recyclerview_list_footer.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_loading_failed.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.youth.xframe\\xframe\\1.0.2\\res\\layout\\adapter_loading_failed.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_common.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\fragment_common.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\comment_dialog_layout.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\comment_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dome_item.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\dome_item.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lecture.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\activity_lecture.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_progress.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\dialog_progress.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_calendar.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\item_calendar.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_start_activity.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\quick_start_activity.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xloading_loading_view.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.youth.xframe\\xframe\\1.0.2\\res\\layout\\xloading_loading_view.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_main.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\activity_home_main.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xrefreshview_footer.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.huxq17.xrefreshview\\xrefreshview\\3.6.6\\res\\layout\\xrefreshview_footer.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xloading_error_view.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.youth.xframe\\xframe\\1.0.2\\res\\layout\\xloading_error_view.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_recyclerview_swipe_item_default.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.jdsjlzx\\LRecyclerView\\1.2.9\\res\\layout\\layout_recyclerview_swipe_item_default.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_recovery_debug.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.zxy.android\\recovery\\0.0.8\\res\\layout\\layout_recovery_debug.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_calendar.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\fragment_calendar.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_movie.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\activity_movie.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_lectures.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\select_lectures.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_head.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.jcodecraeer\\xrecyclerview\\1.3.2\\res\\layout\\pull_to_refresh_head.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xloading_empty_view.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.youth.xframe\\xframe\\1.0.2\\res\\layout\\xloading_empty_view.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xrefreshview_header.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.huxq17.xrefreshview\\xrefreshview\\3.6.6\\res\\layout\\xrefreshview_header.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xloading_dialog.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.youth.xframe\\xframe\\1.0.2\\res\\layout\\xloading_dialog.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\banner.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.youth.banner\\banner\\1.4.9\\res\\layout\\banner.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lecture_detail.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\lecture_detail.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_calllogs.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\fragment_calllogs.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_recyclerview_header.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.jdsjlzx\\LRecyclerView\\1.2.9\\res\\layout\\layout_recyclerview_header.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_header.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.jcodecraeer\\xrecyclerview\\1.3.2\\res\\layout\\listview_header.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cbk_list_item_calendar.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.codbking\\CalendarExaple\\v1.0.0\\res\\layout\\cbk_list_item_calendar.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settingitem.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.leon\\lsettingviewlibrary\\1.0\\res\\layout\\settingitem.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xtoast_view.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.youth.xframe\\xframe\\1.0.2\\res\\layout\\xtoast_view.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xloading_no_network_view.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.youth.xframe\\xframe\\1.0.2\\res\\layout\\xloading_no_network_view.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_recyclerview_list_footer_network_error.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.jdsjlzx\\LRecyclerView\\1.2.9\\res\\layout\\layout_recyclerview_list_footer_network_error.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\movie_item.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\movie_item.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lecture_detail2.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\lecture_detail2.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_line.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\layout_line.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_no_more.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.youth.xframe\\xframe\\1.0.2\\res\\layout\\adapter_no_more.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_1.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\fragment_1.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_recyclerview_list_footer_loading.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.jdsjlzx\\LRecyclerView\\1.2.9\\res\\layout\\layout_recyclerview_list_footer_loading.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_recyclerview_list_footer_end.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.jdsjlzx\\LRecyclerView\\1.2.9\\res\\layout\\layout_recyclerview_list_footer_end.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recovery.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.zxy.android\\recovery\\0.0.8\\res\\layout\\activity_recovery.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_footer.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.jcodecraeer\\xrecyclerview\\1.3.2\\res\\layout\\listview_footer.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_recyclerview_footer.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.github.jdsjlzx\\LRecyclerView\\1.2.9\\res\\layout\\layout_recyclerview_footer.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\popwindow.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\head.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_settings.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alertext_form.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\alertext_form.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lecture_detail1.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\src\\main\\res\\layout\\lecture_detail1.xml"
+    },
+    {
+        "merged": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_loading.xml",
+        "source": "D:\\banner-master\\LecturesManagerDemo\\app\\build\\intermediates\\exploded-aar\\com.youth.xframe\\xframe\\1.0.2\\res\\layout\\adapter_loading.xml"
+    }
+]

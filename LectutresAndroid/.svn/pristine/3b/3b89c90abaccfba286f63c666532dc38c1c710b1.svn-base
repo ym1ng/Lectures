@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/iv_good_detai_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/productdemo"
+            android:visibility="visible" />
+        <LinearLayout
+            android:id="@+id/ll_offset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_smaller">
+
+            <TextView
+                style="@style/blackTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:id="@+id/tv_lecture_title"
+                android:text="标题"
+                android:textSize="15dp"/>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginTop="@dimen/spacing_tinyer"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/greyTextStyleSmaller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="游览 "
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/yellow1"
+                    android:textSize="12dp"
+                    />
+                <TextView
+                    style="@style/greyTextStyleSmaller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="收藏 " />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/yellow1"
+                    android:textSize="12dp"
+                    />
+                <TextView
+                    style="@style/greyTextStyleSmaller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="报名 " />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/yellow1"
+                    android:textSize="12dp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              android:padding="5dp"  >
+
+
+                <ImageView
+                    style="@style/greyTextStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/time"
+                    android:id="@+id/iv1"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="11"
+                    android:layout_marginLeft="@dimen/spacing_large"
+                    android:text="时间"
+                    android:id="@+id/textView1"
+                    android:textSize="@dimen/font_small"
+                    />
+            </LinearLayout>
+            <include layout="@layout/layout_line" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"   >
+
+
+                <ImageView
+                    style="@style/greyTextStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/place"
+                    android:id="@+id/iv2"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="11"
+                    android:layout_marginLeft="@dimen/spacing_large"
+                    android:text="地点"
+                    android:textSize="@dimen/font_small"
+                    android:id="@+id/textView2" />
+            </LinearLayout>
+
+            <include layout="@layout/layout_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageView
+                    style="@style/greyTextStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/microphone"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="11"
+                    android:layout_marginLeft="@dimen/spacing_large"
+                    android:text="演讲人"
+                    android:textSize="@dimen/font_small"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_smaller"
+            android:background="@color/grey_line_bg" />
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </WebView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_smaller"
+            android:background="@color/grey_line_bg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_small">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="讲座评价" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginTop="@dimen/spacing_smaller"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/user" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_marginLeft="@dimen/spacing_smallest"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+
+
+                        android:layout_width="match_parent"
+
+
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+
+                            android:layout_width="wrap_content"
+
+
+                            android:layout_height="wrap_content"
+                            android:text="谢依霖" />
+
+                        <LinearLayout
+
+
+                            android:layout_width="wrap_content"
+
+
+                            android:layout_height="wrap_content"
+
+
+                            android:layout_alignParentRight="true">
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <TextView
+                        style="@style/greyTextStyleSmaller"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_tinyest"
+                        android:text="2016年04月" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_tinyest"
+                        android:text="第二次来找这个零食了，第一次吃就开始爱上了，还是跟原来一样的味道" />
+
+                    <TextView
+
+
+                        style="@style/greyTextStyleSmall"
+
+
+                        android:layout_width="wrap_content"
+
+
+                        android:layout_height="wrap_content"
+
+
+                        android:layout_marginTop="@dimen/spacing_tinyest"
+                        android:text="颜色分类：原味" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <TextView
+
+
+                android:layout_marginTop="@dimen/spacing_small"
+
+
+                android:paddingBottom="@dimen/spacing_tiny"
+                android:paddingTop="@dimen/spacing_tiny"
+
+
+                android:paddingRight="@dimen/spacing_smallest"
+
+
+                android:paddingLeft="@dimen/spacing_smallest"
+
+
+                android:background="@drawable/bg_border_color_primary"
+                android:id="@+id/tv_talent_detail_open"
+
+
+                style="@style/colorPrimaryTextStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_gravity="center_horizontal"
+                android:text="查看全部评论" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>
