@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zym.dao.AdminMapperVo">
+	<!--设置domain类和数据库中表的字段一一对应，注意数据库字段和domain类中的字段名称不致，此处一定要！ -->
+	<resultMap id="BaseResultMap" type="com.zym.domain.AdminVo">
+		 <id column="managerId" jdbcType="INTEGER" property="managerid" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="roleid" jdbcType="DOUBLE" property="roleid" />
+    <result column="mobile" jdbcType="VARCHAR" property="mobile" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="addtime" jdbcType="TIMESTAMP" property="addtime" />
+		<association property="role" javaType="com.zym.domain.Role">
+			<id column="roleid" property="roleid" jdbcType="INTEGER" />
+			<result column="rolename" property="rolename" jdbcType="VARCHAR" />
+		</association>
+	</resultMap>
+
+
+	<!--多表查询操作 -->
+	<select id="selectAdmin" parameterType="string" resultMap="BaseResultMap">
+		select a.managerid ,a.username,a.password ,r.roleid,r.rolename from
+		admin a,role r where a.roleid = r.roleid and a.username = #{username}
+	</select>
+	 <select id="selectAdminList"  resultMap="BaseResultMap">
+       select a.* ,r.* from admin a  left join role r ON  a.roleid = r.roleid
+    </select>
+
+</mapper>

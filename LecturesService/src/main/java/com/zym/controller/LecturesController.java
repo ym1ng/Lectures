@@ -1,0 +1,240 @@
+package com.zym.controller;
+import java.io.File;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.annotation.Resource;
+import javax.servlet.ServletOutputStream;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.MultipartFile;
+
+import com.alibaba.fastjson.JSONObject;
+import com.google.zxing.BarcodeFormat;
+import com.google.zxing.WriterException;
+import com.google.zxing.client.j2se.MatrixToImageWriter;
+import com.google.zxing.common.BitMatrix;
+import com.google.zxing.qrcode.QRCodeWriter;
+import com.zym.domain.Lectures;
+import com.zym.service.ClassroomService;
+import com.zym.service.CollegesService;
+import com.zym.service.EnrollService;
+import com.zym.service.LecturesService;
+import com.zym.service.LecturesTypeService;
+import com.zym.service.SigninService;
+import com.zym.utils.Base;
+import com.zym.utils.FastJsonTools;
+import com.zym.utils.RenameFileUtils;
+
+@RequestMapping("/lectures")
+@Controller
+public class LecturesController extends BaseController{
+
+	@Resource
+	private LecturesService lecturesService;
+	@Resource
+	private CollegesService collegesService;
+	@Resource
+	private ClassroomService classroomService;
+	@Resource
+	private LecturesTypeService lecturesTypeService;
+	@Resource
+	private EnrollService enrollService;
+	@Resource
+	private SigninService signinService;
+	@RequestMapping("/list")
+	public String list(Model model) {
+		model.addAttribute("lectureslist", lecturesService.selectLecturesList());
+		return "lectures/lectures-list";
+	}
+
+	@RequestMapping("/add")
+	public String add(Model model) {
+		model.addAttribute("collegeslist", collegesService.selectCollegeslist());
+		model.addAttribute("classroomlist",classroomService.selectClassroomlist());
+		model.addAttribute("lecturesTypelist",lecturesTypeService.selectLecturesTypelist());
+		return "lectures/lectures-add";
+	}
+
+	@RequestMapping(value = "/save", method = RequestMethod.POST)
+	public @ResponseBody JSONObject save(MultipartFile file,HttpServletRequest request) {
+		JSONObject jsonObject = new JSONObject();
+		String content = request.getParameter("content");	
+		String lecturesid = request.getParameter("lecturesid");
+		String lecturesname = request.getParameter("lecturesname");
+		String speechmaker = request.getParameter("speechmaker");
+		String collegesid = request.getParameter("colleges");
+		String lecturestype = request.getParameter("lecturestype");
+		String registrationtypeid = request.getParameter("registrationtypeid");
+		String lecturescontent = request.getParameter("lecturescontent");
+		String total = request.getParameter("total");
+		Lectures lectures = new Lectures();
+		if (!"".equals(lecturescontent)) {
+			lectures.setLecturescontent(lecturescontent);
+		}
+		lectures.setLecturesname(lecturesname);
+		lectures.setCollegesid(Integer.parseInt(collegesid));
+		lectures.setSpeechmaker(speechmaker);
+		lectures.setLecturestype(Integer.parseInt(lecturestype));
+		lectures.setEnrollnumber(Integer.parseInt(total));
+		lectures.setRegistrationtype(Integer.parseInt(registrationtypeid));
+		lectures.setLecturescontent(content);
+		Date date=null ;
+		SimpleDateFormat formatter=new SimpleDateFormat("yyyy-MM-dd HH:mm");  
+	    try {
+			date=formatter.parse(request.getParameter("lecturestime"));
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}  
+	    System.out.println(date);  
+		logger.info(request.getParameter("lecturestime"));
+		logger.info(date);
+		lectures.setLecturestime(date);
+		if ("".equals(lecturesid)) {
+			lectures.setAddtime(new Date());
+			if (file!=null) {
+				lectures.setPoster((savepic(file, 0)));
+				
+			}
+			if (lecturesService.insertLectures(lectures)) {
+				jsonObject.put("msg", "true");
+			} else {
+				jsonObject.put("msg", "false");
+			}
+		} else {
+			lectures.setLecturesid(Integer.parseInt(lecturesid));
+			if (file!=null) {
+				lectures.setPoster(savepic(file, Integer.parseInt(lecturesid)));
+			}
+			if (lecturesService.updateLectures(lectures)) {
+				jsonObject.put("msg", "true");
+			} else {
+				jsonObject.put("msg", "false");
+			}
+		}
+
+		return jsonObject;
+
+	}
+
+	@RequestMapping(value = "/detele")
+	public @ResponseBody JSONObject detele(Model model, @RequestParam("lecturesid") int lecturesid) {
+		JSONObject jsonObject = new JSONObject();
+		if (lecturesService.deleteLectures(lecturesid)) {
+			jsonObject.put("msg", "true");
+		} else {
+			jsonObject.put("msg", "false");
+		}
+		return jsonObject;
+	}
+
+	@RequestMapping(value = "/edit")
+	public String edit(Model model, @RequestParam("lecturesid") int lecturesid) {
+		model.addAttribute("lectures", lecturesService.selectLecturesbylecturesid(lecturesid));
+		model.addAttribute("collegeslist", collegesService.selectCollegeslist());
+		model.addAttribute("classroomlist",classroomService.selectClassroomlist());
+		model.addAttribute("lecturesTypelist",lecturesTypeService.selectLecturesTypelist());
+		return "lectures/lectures-add";
+	}
+
+	@RequestMapping(value = "/show")
+	public String show(Model model, @RequestParam("lecturesid") int lecturesid) {
+		model.addAttribute("lectures", lecturesService.selectLecturesbylecturesid(lecturesid));
+		return "lectures/lectures-show";
+	}
+	@RequestMapping(value = "/showenroll")
+	public String showenroll(Model model,  int lecturesid) {
+		model.addAttribute("enrolllist", enrollService.lecturesQuerylikebylecturesid(lecturesid));
+		return "lectures/enrolluser-list";
+	}
+	@RequestMapping(value = "/showsignin")
+	public String showsignin(Model model,  int lecturesid) {
+		model.addAttribute("signinlist", signinService.queryuserenrollBylecturesid(lecturesid));
+		logger.info(signinService.queryuserenrollBylecturesid(lecturesid));
+		return "lectures/signinuser-list";
+	}
+	@RequestMapping(value = "/getQ", method = { RequestMethod.POST, RequestMethod.GET })
+	public void getqcode(HttpServletResponse resp, int id) throws IOException {
+		String url = FastJsonTools.obj2Json(lecturesService.selectLecturesbylecturesid(id));
+		if (url != null && !"".equals(url)) {
+			ServletOutputStream stream = null;
+			try {
+				int width = 300;
+				int height = 300;
+				stream = resp.getOutputStream();
+				QRCodeWriter writer = new QRCodeWriter();
+				BitMatrix m = writer.encode(url, BarcodeFormat.QR_CODE, height, width);
+				MatrixToImageWriter.writeToStream(m, "png", stream);
+			} catch (WriterException e) {
+				e.printStackTrace();
+			} finally {
+				if (stream != null) {
+					stream.flush();
+					stream.close();
+				}
+			}
+		}
+	}
+	@RequestMapping("/select")
+	public String select(Model model,HttpServletRequest request) {
+		logBefore(logger, "Lectureselect");
+		logger.info(request.getParameter("datemin"));
+		logger.info(request.getParameter("datemax"));
+		Map<String, Object> map=new HashMap<String, Object>();
+		map.put("startTime", request.getParameter("datemin"));
+		map.put("endTime", request.getParameter("datemax"));
+		//logger.info("获得的数据"+userService.getUserByDate(map));
+		logAfter(logger);
+		model.addAttribute("lectureslist", lecturesService.getLecturesInByDate(map));
+		return "lectures/lectures-list";
+	}
+	String savepic(MultipartFile file, int lecturesid) {
+		if (file!=null) {
+			String path = "/images/" + RenameFileUtils.renameFileName(file.getOriginalFilename());// 路径需要修改
+			File dir = new File(Base.BASE_PIC_PATH + path);
+			if (!dir.exists()) {
+				dir.mkdirs();
+			}
+			try {
+				file.transferTo(dir);
+			} catch (IllegalStateException e) {
+				e.printStackTrace();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			if (lecturesid != 0) {
+				Lectures lectures = lecturesService.selectLecturesbylecturesid(lecturesid);
+				if (lectures.getPoster()!=null) {
+					File file1 = new File(Base.BASE_PIC_PATH + lectures.getPoster());
+					file1.delete();
+				}
+			}
+			return path;
+		}
+		return null;
+	}
+	@RequestMapping(value = "/excel/export")
+	public void exportExcel(HttpServletRequest request, HttpServletResponse response) throws Exception {
+		HSSFWorkbook wb = lecturesService.export();
+		response.setContentType("application/vnd.ms-excel");
+		response.setHeader("Content-disposition", "attachment;filename=" + RenameFileUtils.renameFileName("lectures.xls"));
+		OutputStream ouputStream = response.getOutputStream();
+		wb.write(ouputStream);
+		ouputStream.flush();
+		ouputStream.close();
+	}
+}
